@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Laura Melikyan](https://up.htmlacademy.ru/htmlcss/36/user/2309995).
-* Наставник: `Неизвестно`.
+* Наставник: [Anton Popov](https://htmlacademy.ru/profile/joker).
 
 ---
 
