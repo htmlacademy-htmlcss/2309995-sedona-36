@@ -6,9 +6,9 @@
     <base href="https://htmlacademy-htmlcss.github.io/2309995-sedona-36/2/">
 </head>
   <body>
-    <header class="page-header">
-      <div class="wrapper">
-        <a href="index.html">
+    <div class="wrapper">
+      <header class="page-header">
+        <a>
           <img src="#" alt="Логотип Седона">
         </a>
         <nav class="navigation">
@@ -23,11 +23,11 @@
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-          <button class="navigation-icon navigation-icon-search" type="button">
+          <a class="navigation-icon navigation-icon-search" href="catalog.html">
             <span class="visually-hidden">
               Поиск
             </span>
-          </button>=
+          </a>
           <a class="navigation-icon navigation-icon-favorite" href="#">
             <span class="visually-hidden">
               Избранное
@@ -37,109 +37,91 @@
             Хочу сюда!
           </a>
         </nav>
-      </div>
-    </header>
-    <main class="main">
-      <div>
-        <h1 class="visually-hidden">Городок Седона</h1>
-      </div>
-      <section class="caption">
-        <div class="wrapper">
-          <h2 class="caption-title">Седона — небольшой городок в Аризоне,
-            заслуживающий большего!</h2>
-            <p class="caption-paragraph">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-        </div>
-      </section>
-      <section class="advantages-left">
-        <div class="wrapper">
-          <h3 class="advantages-left-title">Настоящий городок</h3>
-          <p class="advantages-left-paragraph">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-        </div>
-      </section>
-      <section class="features">
-        <div class="wrapper">
+      </header>
+
+      <main class="main">
+        <section class="hero">
+          <h1 class="visually-hidden">Городок Седона</h1>
+          <img src="#" alt="Добро пожаловать в Седону">
+        </section>
+
+        <section class="features">
+          <h2 class="features-title">Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
+          <p class="featuers-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           <ul class="features-list">
-            <li class="features-item">
-              <h3 class="features-item-title">Небольшая
-                площадь</h3>
-              <p class="features-paragraph">Все достопримечательности находятся очень близко</p>
+            <li>
+              <h3>Настоящий городок</h3>
+              <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <img src="#" alt="Седона, красивый вид на горы">
             </li>
-            <li class="features-item">
-              <h3 class="features-item-title">Красивая
-                дорога</h3>
-              <p class="features-paragraph">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <li>
+              <h3>Небольшая площадь</h3>
+              <p>Все достопримечательности находятся очень близко</p>
             </li>
-            <li class="features-item">
-              <h3 class="features-item-title">Мало
-                туристов</h3>
-              <p class="features-paragraph">Большинство едет в Гранд Каньон и толпится там</p>
+            <li>
+              <h3>Красивая дорога</h3>
+              <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </li>
+            <li>
+              <h3>Мало туристов</h3>
+              <p>Большинство едет в Гранд Каньон и толпится там</p>
+            </li>
+            <li>
+              <h3>Там есть мост дьявола</h3>
+              <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <img src="#" alt="Седона, мост дьявола">
             </li>
           </ul>
-        </div>
-      </section>
-      <section class="advantages-right">
-        <div class="wrapper">
-          <h3 class="advantages-right-title">Там есть
-            мост дьявола
-          </h3>
-            <p class="advantages-right-paragraph">
-              Да, по нему можно пройти! Если вы осмелитесь, разумеется
-            </p>
-        </div>
-      </section>
-      <section class="features">
-        <div class="wrapper">
-          <h2 class="features-title">
+        </section>
+
+        <section class="advantage">
+          <h2 class="advantage-title">
             Приезжайте в Седону отдохнуть в комфорте и уюте!
           </h2>
-          <p class="features-paragraph">
+          <p class="advantage-description">
             Опытный персонал и качественное обслуживание!
           </p>
-          <ul class="features-list">
-            <li class="features-item">
-              <h3 class="features-item-title">Жильё</h3>
-              <p class="features-text">Рекомендуем пожить в настоящем мотеле,
+          <ul class="advantage-list">
+            <li class="advantage-item">
+              <h3 class="advantage-item-title">Жильё</h3>
+              <p class="advantage-text">Рекомендуем пожить в настоящем мотеле,
                 всё как в кино!
               </p>
             </li>
-            <li class="features-item">
-              <h3 class="features-item-title">Еда</h3>
-              <p class="features-text">Всегда заказывайте
+            <li class="advantage-item">
+              <h3 class="advantage-item-title">Еда</h3>
+              <p class="advantage-text">Всегда заказывайте
                 топовый фирменный бургер, вы не разочаруетесь!
               </p>
             </li>
-            <li class="features-item">
-              <h3 class="features-item-title">Сувениры</h3>
-              <p class="features-text">Не только китайского,
+            <li class="advantage-item">
+              <h3 class="advantage-item-title">Сувениры</h3>
+              <p class="advantage-text">Не только китайского,
                 но и настоящего местного производства!
               </p>
             </li>
           </ul>
-        </div>
-      </section>
+        </section>
 
-      <section class="interest">
-        <div class="wrapper">
-        <h2 class="interest-title">Заинтересовались?</h2>
-        <p class="interest-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="interest-button" type="button">
-          Поиск гостиницы в седоне
-        </button>
-        </div>
-      </section>
-      <section class="feedback">
-        <div class="wrapper">
-        <h2 class="feedback-subscribe">Подпишитесь на рассылку</h2>
-        <p class="">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        </div>
-        <form action="#" method="get">
-          <input type="email" name="email" placeholder="Ваш e-mail">
-          <button type="submit">Подписаться</button>
-        </form>
-      </section>
-    </main>
-    <footer class="page-footer">
-      <div class="wrapper">
+        <section class="interest">
+          <h2 class="interest-title">Заинтересовались?</h2>
+          <p class="interest-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <a class="interest-button" href="catalog.html">
+            Поиск гостиницы в седоне
+          </a>
+        </section>
+
+        <section class="feedback">
+          <h2 class="feedback-subscribe">Подпишитесь на рассылку</h2>
+          <p class="feedback-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <form action="#" method="get">
+            <input type="email" name="email" placeholder="Ваш e-mail">
+            <button type="submit">Подписаться</button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="page-footer">
         <ul class="social-networks">
           <li class="social-networks-item">
             <a class="social-networks-link" href="https://vk.com/htmlacademy">
@@ -163,7 +145,7 @@
         <a class="page-footer-design" href="https://htmlacademy.ru/">
           <img class="page-footer-image" src="#" alt="Логотип Академии">
         </a>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
